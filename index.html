@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo List</title>
+  <link rel="stylesheet" href="./assets/bs5/css/bootstrap.css" />
+  <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <section id="first-section" class="section-one">
+
+    <!-- CODES FOR NAVIGATION BAR STARTS HERE -->
+    <header>
+      <nav class="navbar navbar-light bg-light justify-content-around">
+        <a class="navbar-brand text-danger">Todo List  <i class="fa fa-bookmark" aria-hidden="true"></i></a>
+        <!-- Form section for search property starts here -->
+        <form id="search-task" class="form-inline">
+          <input class="form-control" type="search" placeholder="Search Task Here" aria-label="Search">
+        </form>
+         <!-- Form section for search property Ends here -->
+      </nav>
+    </header>
+    <!-- CODES FOR NAVIGATION BAR ENDS HERE -->
+
+    <!-- CODES FOR CONTENT SECTIONS STARTS HERE -->
+    <div class="container my-2">
+      <div class="row justify-content-center py-3">
+        <div class="col-sm-12 col-lg-6">
+          <!-- FORM SECTION STARTS HERE -->
+          <div class="input-group input-group-lg  ">
+            <form id="add-task" class="input-group">
+              <input type="text" class="form-control task-input-value" placeholder="Enter Your Task Here"
+                aria-label="Username" aria-describedby="sizing-addon1" />
+              <button class="btn btn-danger"><i class="fa fa-plus" aria-hidden="true"></i></button>
+            </form>
+          </div>
+          <!-- FORM SECTION ENDS HERE -->
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row my-6 d-flex justify-content-center">
+        <!-- LIST SECTION STARTS HERE -->
+        <div id="task-list" class="col-sm-12 col-lg-10">
+          <ul class="list-group">
+          </ul>
+        </div>
+        <!-- LIST SECTION ENDS HERE -->
+      </div>
+    </div>
+
+    <!-- CODES FOR CONTENT SECTIONS ENDS HERE -->
+
+  </section>
+
+  <!-- SOURCE FOR JAVASCRIPT FILE -->
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>

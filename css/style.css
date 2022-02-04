@@ -1,0 +1,46 @@
+body {
+  background-image: url(../images./pexels-drew-williams-3568521.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0px 0px 60px;
+  height: 100vh;
+}
+
+h3 {
+  color: white;
+}
+p{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.fa-trash{
+  float: right;
+  cursor: pointer;
+  float: right;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #dc3545;
+}
+
+.fa-trash:hover {
+  color: #7b7881;
+}
+
+.list-group{
+  list-style: none;
+}
+
+.list-group-item {
+  background-color: #cbc8c8;
+  border-left: 6px solid transparent;
+  position: relative;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+.list-group-item:hover {
+  background-color: #b8b8bb;
+  border-left: 6px solid #dc3545;
+}
